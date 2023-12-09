@@ -2,6 +2,7 @@ import React from 'react'
 import { BsEmojiSmileFill } from "react-icons/bs";
 import { IoNotifications } from "react-icons/io5";
 import { TbInfoSquareRoundedFilled } from "react-icons/tb"
+import UserProfile from '../Models/UserProfile';
 
 function Navbar() {
   return (
@@ -23,7 +24,7 @@ function Navbar() {
               <div className='p-3 flex items-center gap-3 '>
                 <img className='w-12  h-12 object-cover  hover:text-white cursor-pointer rounded-full' src='https://www.pngall.com/wp-content/uploads/12/Avatar-Profile-PNG-Photos.png' alt=''></img>
               <div>
-              <h1 className=' text-sm font-medium cursor-pointer text-white '> Madhav Sharma</h1>
+              <h1 className=' text-sm font-medium cursor-pointer text-white '> <UserProfile/> </h1>
               <small className='text-xs'>madhavsharma.2414@gmail.com</small>
               </div>
               </div>
