@@ -28,7 +28,14 @@ function ChatHistory() {
                     {
                         user.map((elm) => (
                             <div key={elm.id} className='cursor-pointer hover:bg-slate-700'>
-                                <Userchat userName={`${elm.firstName } ${elm.lastName}`} lastMsg={elm.email} img={elm.image} />
+                                <Userchat 
+                                userName={`${elm.firstName }  
+                                ${elm.lastName}`} 
+                                lastMsg={elm.email} 
+                                img={elm.image}  
+                                isBadgeShow = {elm.age >= 40 ? true : false}
+                                
+                                />
                             </div>
                         ))
                     }

@@ -5,7 +5,7 @@ import { BsFillSendFill } from "react-icons/bs";
 function MessageInput() {
     return (
         <>
-            <div className='flex justify-between items-center bg-slate-800 p-4 mb-3 rounded-xl'>
+            <div className='flex justify-between items-center bg-slate-800  p-4 mb-3 rounded-lg'>
                 <div className='flex-1'>
                     <input type="text" className='outline-none bg-transparent w-full text-white  text-lg' placeholder='Type your message or press / key for quick reply ' />
                 </div>
