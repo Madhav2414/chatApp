@@ -3,6 +3,7 @@ import { BsEmojiSmileFill } from "react-icons/bs";
 import { IoNotifications } from "react-icons/io5";
 import { TbInfoSquareRoundedFilled } from "react-icons/tb"
 import UserProfile from '../Models/UserProfile';
+import CustomFillBtn from '../CustomFillBtn/CustomFillBtn';
 
 function Navbar() {
   return (

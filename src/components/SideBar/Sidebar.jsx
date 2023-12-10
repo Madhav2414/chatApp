@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { MdHomeFilled } from "react-icons/md";
-import { MdEmail, MdSunny, MdSettings } from "react-icons/md";
-import { FaCalendarDays } from "react-icons/fa6";
+import {  MdSunny, MdSettings } from "react-icons/md";
 import { FaUser } from "react-icons/fa";
 import { IoIosMoon } from "react-icons/io";
 function Sidebar() {
@@ -15,8 +14,6 @@ function Sidebar() {
                 <div className='pt-32'>
                     <ul className=''>
                         <li className='py-5 text-xl hover:text-white cursor-pointer   '> <MdHomeFilled /></li>
-                        <li className='py-5 text-xl hover:text-white cursor-pointer  '> <MdEmail /></li>
-                        <li className='py-5 text-xl hover:text-white cursor-pointer '><FaCalendarDays /></li>
                         <li className='py-5 text-xl hover:text-white cursor-pointer '><MdSettings /></li>
                         <li className='py-5 text-xl hover:text-white cursor-pointer '> <FaUser /></li>
                     </ul>

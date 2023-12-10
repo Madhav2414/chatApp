@@ -3,31 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
-.name-container{
-  display: flex;
-  gap: 15px;
+.profile_container{
+  position: relative;
+display: block;
+z-index: 999;
 }
-.container{
-  height: 90vh;
-  width: 100%;
-  
-}
-.card_container{
-  height: 500px;
-  width: 300px;
-  border-radius: 20px;
-  overflow: hidden;
-}
-.card_image{
-  height: 300px;
-  width: 100%;
-}
-.card_image img{
+.profile_container::after{
+  position: absolute;
+  top: 0;
+  left: 0;
   height: 100%;
   width: 100%;
-  object-fit: cover;
-  object-position: top;
-}
-.card_info{
-  padding: 10px;
+  content: "";
+  background-image: url(assets/Bg-icons.png);
+  background-size: cover;
+  background-position: center;
+  mix-blend-mode:soft-light ;
+  opacity: 0.3;
+z-index: -1;
+  
 }

@@ -4,7 +4,7 @@ function Chat({varient}) {
     return (
         <>
             <div className={` my-4 flex ${varient === 'sender'? "flex-row-reverse" :"" }`}>
-                <img className='w-10 h-10 object-cover cursor-pointer rounded-full' src='https://www.pngall.com/wp-content/uploads/12/Avatar-Profile-PNG-Photos.png' alt=''></img>
+                <img className='w-10 border border-slate-500 h-10 object-cover cursor-pointer rounded-full' src='https://www.pngall.com/wp-content/uploads/12/Avatar-Profile-PNG-Photos.png' alt=''></img>
                 <div>
                     <div className={`flex  items-center ${varient === 'sender'? "flex-row-reverse" : ""}`}>
                         <h1 className= 'mx-3 text-white'>
