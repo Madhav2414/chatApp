@@ -14,7 +14,7 @@ function Navbar() {
             <BsEmojiSmileFill />
           </div>
           <div className=' text-xl font-semibold cursor-pointer text-white '>
-            Chat App
+            GUFT GU
           </div>
         </div>
         <div className=''>

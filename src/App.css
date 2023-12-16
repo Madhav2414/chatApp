@@ -1,14 +1,16 @@
 #root {
-  margin: 0 ;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.profile_container{
+
+.profile_container {
   position: relative;
-display: block;
-z-index: 999;
+  display: block;
+  z-index: 999;
 }
-.profile_container::after{
+
+.profile_container::after {
   position: absolute;
   top: 0;
   left: 0;
@@ -18,8 +20,26 @@ z-index: 999;
   background-image: url(assets/Bg-icons.png);
   background-size: cover;
   background-position: center;
-  mix-blend-mode:soft-light ;
+  mix-blend-mode: soft-light;
   opacity: 0.3;
-z-index: -1;
-  
+  z-index: -1;
+}
+
+.hero_text_gradient {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#fef08a, #a5f3fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.5 !important;
+  transition: background-color 0.3s ease;
+}
+
+.image_container::after {
+  content: "";
+  width: 100%;
+  top: 0;
+  height: 100%;
+  position: absolute;
+  background: rgb(15, 23, 42);
+  background: linear-gradient(0deg, rgba(15, 23, 42, 0.8435749299719888) 0%, rgba(15, 23, 42, 0.4290091036414566) 35%, rgba(15, 23, 42, 0) 100%);
 }
