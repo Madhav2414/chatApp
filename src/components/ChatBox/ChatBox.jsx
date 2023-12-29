@@ -1,7 +1,7 @@
 import React from 'react'
 import ChatSearch from '../UserChatHeader/ChatSearch'
 import Chat from '../UserChat/SenderChat'
-import MessageInput from '../MessageBar/messageInput'
+import MessageInput from '../MessageBar/MessageInput'
 
 function ChatBox() {
     return (
