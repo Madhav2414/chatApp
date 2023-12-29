@@ -5,6 +5,7 @@ import bell from '../../../assets/bell.png'
 import message from '../../../assets/message.png'
 import AboutBtn from './AboutBtn/AboutBtn'
 
+
 function LandingPage() {
     return (
         <>
@@ -21,7 +22,7 @@ function LandingPage() {
                                         <a href="#" className="text-gray-400 hover: hover:text-white rounded-md px-3 py-2 text-sm font-medium">Home</a>
                                         <a href="#" className="text-gray-400 hover: hover:text-white rounded-md px-3 py-2 text-sm font-medium"><AboutBtn/></a>
                                         <a href="#" className="text-gray-400 hover: hover:text-white rounded-md px-3 py-2 text-sm font-medium">
-                                            <CustomFillBtn btntext={"Log In"} variant={"border"} className="" />
+                                            <CustomFillBtn btntext={"Log In with Google"} variant={"border"} className="" />
                                         </a>
                                     </div>
                                 </div>

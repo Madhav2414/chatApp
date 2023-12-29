@@ -2,7 +2,7 @@ import React from "react";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { BsFillBookmarkStarFill } from "react-icons/bs";
 
-function Userchat({ img, userName, lastMsg , isBadgeShow}) {
+function Userchat({ bgColour, img, userName, lastMsg , isBadgeShow}) {
     return (
         <>
 
@@ -16,8 +16,8 @@ function Userchat({ img, userName, lastMsg , isBadgeShow}) {
              }
                 
                 <div className=" items-center flex">
-                    <div className="">
-                        <img className=" h-16 w-16 border border-slate-500 rounded-full object-center object-cover " src={img} alt="" />
+                    <div style={{backgroundColor:bgColour}}  className="h-16 w-16 overflow-hidden border border-slate-700 rounded-full">
+                        <img className=" h-full w-full  object-center object-cover " src={img} alt="" />
                     </div>
                     <div className="pl-6">
                         <h5 className=" font-bold ">

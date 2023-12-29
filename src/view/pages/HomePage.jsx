@@ -11,6 +11,7 @@ function HomePage() {
         <div>
           <Navbar />
         </div>
+        
         <div className='flex ml-16'>
           <div className='w-2/5'>
             <ChatHistory />
